@@ -9,6 +9,7 @@
 1. 接着执行 `cp .env.example .env` 创建配置文件
 1. 接着执行 `php artisan key:generate` 生成 Laravel 应用的加密密钥
 1. 接着执行 `php artisan passport:keys` 生成 Passport 所需的 RSA 密钥对
+1. 接着执行 `php artisan passport:client --password` 创建一个 OAuth2 密码授权客户端
 1. 配置 `.env` 文件中的数据库信息以及邮件驱动配置信息，邮件配置可使用（或修改为自己的）：
 ```
 MAIL_MAILER=smtp
