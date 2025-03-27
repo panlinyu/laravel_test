@@ -50,7 +50,7 @@ app/
     - `testUpdate` 方法用于测试：认证用户能否成功更新客户信息
     - `testDelete` 方法用于测试：认证用户能否成功删除客户
 - 测试用例中使用了 `assertStatus` 和 `assertJson` 方法来断言 HTTP 响应的状态码和响应内容
-- 命令行执行 `php artisan test` 运行测试用例
+- 命令行执行 `php artisan test` 运行测试用例(此操作会删除你已注册的用户)
 
 ## UI页面步骤
 1. 注册页面
